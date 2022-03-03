@@ -1,0 +1,10 @@
+from building import *
+Import('rtconfig')
+
+cwd = GetCurrentDir()
+src	= Glob('*.c')
+path = [cwd]
+
+group = DefineGroup('rfm300', src, depend = ['PKG_USING_RFM300_DEMO'], CPPPATH = path)
+
+Return('group')
