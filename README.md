@@ -49,7 +49,7 @@ RT-Thread online packages
 
 选中后让 RT-Thread 的包管理器自动更新，或者使用 `pkgs --update` 命令更新包到 BSP 中。
 
-## 3、使用 nRF24L01
+## 3、使用 RFM300
 
 _**用户手册--> [datasheet.pdf](./docs/RFM300_Datasheet_REV1.2.pdf)**_
 
